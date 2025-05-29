@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dúvidas Frequentes</title>
+    <link rel="stylesheet" href="Styles/StyleSolarisCSS.css">
+    <link rel="stylesheet" href="Styles/StylesFAQ.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Criação da DIV responsável pela top-box -->
+    <div class="top-box">
+        <nav class="menu-esquerda">
+            <ul>
+                <li class="dropdown">
+                    <a href="#">Energia Solar <span>&#9660;</span></a> 
+                    <div class="dropdown-content">
+                        <a href="UPXSolaris.html#info1">O que é Energia Solar?</a>
+                        <a href="UPXSolaris.html#info2">Como funciona a Energia Solar?</a>
+                        <a href="UPXSolaris.html#info3">Sustentabilidade e Meio Ambiente</a>
+                        <a href="UPXSolaris.html#info4">Economia com Energia Solar</a>
+                        <a href="FAQ.html">Dúvidas Frequentes</a>
+                    </div>
+                </li>
+                <li><a href="CalculadoraSolar.html">Calculadora</a></li>
+            </ul>
+        </nav>
+
+        <a href="UPXSolaris.html" id="logo-link">
+            <img src="Midias/LogoSolarisPNG.png" alt="logo" class="img-logo">
+        </a>
+
+        <nav class="menu-direita">
+            <ul>
+                <li><a href="SobreNos.html" id="sobreNos">Sobre Nós</a></li>
+                <li><a href="ConsultoriaPersonalizada.html" id="cadastro">Consultoria Personalizada</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Botão de consultoria -->
+    <div>
+        <a href="ConsultoriaPersonalizada.html" class="botao-consultoria" target="_blank">
+            Consultoria Personalizada
+        </a>
+    </div>
+
+    <!-- Perguntas frequentes-->
+    <div class="fundo-cadastroFAQ">
+
+        <h1>Dúvidas Frequentes</h1>
+
+        <div class="bloco-textoFAQ">
+            <h2 onclick="toggleAnswer(1, event)">
+                Como funciona a Consultoria Solar? 
+                <span class="arrow">&#9654;</span>
+            </h2>
+            <div id="answer1" class="faq-answer">
+                <p>A consultoria serve pra te ajudar a entender se a energia solar vale a pena no seu caso. A gente analisa o seu consumo de energia, e calcula quanto você pode economizar por mês. Com isso, dá pra montar uma proposta personalizada, sem compromisso, pra te mostrar como tudo funcionaria na prática.</p>
+            </div>
+        </div>
+
+        <div class="bloco-textoFAQ">
+            <h2 onclick="toggleAnswer(2, event)">
+                Quanto custa para colocar energia solar? 
+                <span class="arrow">&#9654;</span>
+            </h2>
+            <div id="answer2" class="faq-answer">
+                <p>O valor depende do tamanho do imóvel e de quanto você gasta na conta de luz. Para casas, o valor inicial gira em torno de R$ 12 mil. Já para comércios e indústrias, pode ser maior, pois o consumo é mais alto.</p>
+            </div>
+        </div>
+
+        <div class="bloco-textoFAQ">
+            <h2 onclick="toggleAnswer(3, event)">
+                Em quanto tempo o investimento se paga? 
+                <span class="arrow">&#9654;</span>
+            </h2>
+            <div id="answer3" class="faq-answer">
+                <p>Normalmente entre 3 a 6 anos. Depois disso, você continua economizando por muitos anos.</p>
+            </div>
+        </div>
+
+        <div class="bloco-textoFAQ">
+            <h2 onclick="toggleAnswer(4, event)">
+                Minha conta de luz pode zerar com energia solar? 
+                <span class="arrow">&#9654;</span>
+            </h2>
+            <div id="answer4" class="faq-answer">
+                <p>Sim. O sistema pode ser feito para gerar toda a energia que você usa no mês. Mesmo assim, pode aparecer uma taxa mínima da companhia de energia.</p>
+            </div>
+        </div>
+
+        <div class="bloco-textoFAQ">
+            <h2 onclick="toggleAnswer(5, event)">
+                Se eu gerar mais energia do que uso, o que acontece? 
+                <span class="arrow">&#9654;</span>
+            </h2>
+            <div id="answer5" class="faq-answer">
+                <p>Você ganha créditos que viram desconto na sua conta nos próximos meses. Também é possível usar esses créditos em outro imóvel seu (desde que seja na mesma região).</p>
+            </div>
+        </div>
+
+        <div class="bloco-textoFAQ">
+            <h2 onclick="toggleAnswer(6, event)">
+                Funciona em dias nublados ou à noite? 
+                <span class="arrow">&#9654;</span>
+            </h2>
+            <div id="answer6" class="faq-answer">
+                <p>Nos dias nublados, o sistema ainda funciona, só que com menos força. À noite ele não gera energia, mas a energia acumulada durante o dia pode ser usada normalmente.</p>
+            </div>
+        </div>
+
+        <div class="bloco-textoFAQ">
+            <h2 onclick="toggleAnswer(7, event)">
+                Preciso pedir permissão para colocar o sistema? 
+                <span class="arrow">&#9654;</span>
+            </h2>
+            <div id="answer7" class="faq-answer">
+                <p>Sim, é necessário fazer a solicitação junto à companhia de energia. Sem essa autorização, o sistema não pode ser ligado à rede elétrica.</p>
+            </div>
+        </div >
+
+        <div class="bloco-textoFAQ">
+            <h2 onclick="toggleAnswer(8, event)">
+                Vai precisar quebrar telhado ou fazer obra? 
+                <span class="arrow">&#9654;</span>
+            </h2>
+            <div id="answer8" class="faq-answer">
+                <p>Na maioria dos casos, não. A instalação é rápida e limpa. Só precisa de um espaço no telhado, na laje ou no chão para os equipamentos.</p>
+            </div>
+        </div>
+
+        <div class="bloco-textoFAQ">
+            <h2 onclick="toggleAnswer(9, event)">
+                Dá muito trabalho cuidar do sistema? 
+                <span class="arrow">&#9654;</span>
+            </h2>
+            <div id="answer9" class="faq-answer">
+                <p>Não. Basta fazer uma limpeza simples nos painéis de tempos em tempos e verificar se está tudo funcionando bem.</p>
+            </div>
+        </div>
+
+        <div class="bloco-textoFAQ">
+            <h2 onclick="toggleAnswer(10, event)">
+                Pode instalar em condomínio ou prédio? 
+                <span class="arrow">&#9654;</span>
+            </h2>
+            <div id="answer10" class="faq-answer">
+                <p>Sim. É possível fazer um projeto para as áreas comuns ou até dividir a energia gerada entre os moradores, dependendo do tipo de condomínio e da regra da concessionária.</p>
+            </div>
+        </div>
+
+        <div class="bloco-textoFAQ">
+            <h2 onclick="toggleAnswer(11, event)">
+                Vale a pena para empresas e indústrias? 
+                <span class="arrow">&#9654;</span>
+            </h2>
+            <div id="answer11" class="faq-answer">
+                 <p>Sim. Como o consumo é maior, a economia também é maior. Além disso, existem financiamentos específicos que ajudam a pagar o sistema em parcelas.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="JavaScript/FAQScript.js"></script>
+
+    <!-- Parte do footer puxado com JavaScript -->
+    <div id="footer">
+        <script src="JavaScript/SolarisScript.js" defer></script>
+    </div>
+    
+</body>
+</html>

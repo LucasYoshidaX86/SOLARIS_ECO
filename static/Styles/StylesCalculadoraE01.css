@@ -1,0 +1,326 @@
+/* ========= ESTRUTURA FUNDAMENTAL ========= */
+
+.img-fundo2 {
+    position: relative;
+    width: 100%;
+    min-height: 130vh;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.img-fundo2 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+    z-index: 0;
+}
+
+/* ======= TÍTULO E SUBTÍTULO SOBRE A IMAGEM ======= */
+
+.img-fundo2 h1 {
+    font-family: 'Russo One', sans-serif;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    font-size: clamp(24px, 3.5vw, 48px);
+    color: #ffbb00;
+    z-index: 1;
+    text-shadow: 2px 2px 6px #000;
+}
+
+.img-fundo2 h2 {
+    font-family: 'Abel', sans-serif;
+    position: absolute;
+    top: 22%;
+    left: 5%;
+    font-size: clamp(16px, 1.6vw, 28px);
+    color: white;
+    max-width: 600px;
+    z-index: 1;
+    text-shadow: 1px 1px 4px #000;
+}
+
+/* ========= ÁREA DE ETAPAS ========= */
+
+.conteudo-etapa {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+#container-etapas {
+    position: absolute;
+    top: 25%;
+    left: 0%;
+    width: 90%;
+    max-width: 950px;
+    padding: 40px;
+    z-index: 2;
+}
+
+.etapa {
+    position: relative;
+    min-height: 400px;
+    width: 100%;
+}
+
+/* ========= BARRA DE ETAPAS ========= */
+
+.barra-etapas {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 3vw;
+    width: fit-content;
+    z-index: 1;
+    flex-wrap: wrap;
+}
+
+.barra-etapas::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 22px;
+    right: 22px;
+    height: 4px;
+    background-color: #ddd;
+    z-index: 0;
+}
+
+.etapa-item {
+    width: clamp(35px, 6vw, 45px);
+    height: clamp(35px, 6vw, 45px);
+    border-radius: 50%;
+    background-color: #ccc;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    z-index: 1;
+}
+
+.etapa-item.ativa {
+    background-color: #ffbb00;
+    color: black;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 3px #ffbb00 inset;
+}
+
+/* ========= TÍTULO DA ETAPA ========= */
+
+.titulo-etapa {
+    position: absolute;
+    top: 100px;
+    left: 5%;
+    font-size: clamp(18px, 1.8vw, 28px);
+    font-family: 'Abel', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 5px #000;
+    z-index: 10;
+}
+
+/* ========= CAMPOS ========= */
+
+.form-linha {
+    position: absolute;
+    top: 160px;
+    left: 5%;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    z-index: 2;
+    width: 90%;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Abel', sans-serif;
+    flex: 1 1 250px;
+}
+
+.campo label {
+    font-size: 1em;
+    margin-bottom: 5px;
+    color: white;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.campo select {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 250px;
+}
+
+/* ========= BOTÃO ========= */
+
+.botao-avancar {
+    position: absolute;
+    top: 270px;
+    left: 5%;
+    background-color: #ffbb00;
+    color: #000;
+    font-weight: bold;
+    padding: 12px 32px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border: none;
+    z-index: 2;
+    min-width: 200px;
+}
+
+/* Hover botão */
+.botao-avancar:hover {
+    background-color: #e6a900;
+}
+
+/* ========= RESPONSIVO ========= */
+/* ========== RESPONSIVO LIMPO E FUNCIONAL ========== */
+@media screen and (max-width: 768px) {
+  #container-etapas {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .conteudo-etapa {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .titulo-etapa {
+    position: relative;
+    top: auto;
+    left: auto;
+    font-size: 5vw;
+    margin: 0;
+    z-index: 3;
+  }
+
+  .barra-etapas {
+    position: relative;
+    top: auto;
+    left: auto;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+
+  .form-linha {
+    position: relative;
+    top: auto;
+    left: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .campo {
+    width: 100%;
+  }
+
+  .campo select {
+    width: 100%;
+  }
+
+  .botao-avancar {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+/* ======= OPÇÕES DE INSTALAÇÃO ======= */
+
+.etapa2 .opcao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border: 2px solid transparent;
+    max-width: 180px;
+}
+
+.etapa2 .opcao img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.etapa2 .opcao label {
+    font-family: 'Abel', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 3px #000;
+    font-size: 1.1em;
+}
+
+.etapa2 .opcao:hover {
+    background-color: rgba(255, 187, 0, 0.2);
+    border-color: #ffbb00;
+}
+
+.etapa2 .opcao.selecionado {
+    background-color: #ffbb00;
+    border-color: #fff;
+    color: black;
+}
+
+.etapa2 .opcao.selecionado label {
+    color: black;
+}
+
+/* ======= BOTÕES ======= */
+
+.etapa2 .botoes-navegacao {
+    position: relative; /* ⬅️ Corrigido para não sumir */
+    margin-top: 30px;
+    left: 0;
+    display: flex;
+    gap: 20px;
+    z-index: 2;
+}
+
+.etapa2 .botao-voltar, .etapa2 .botao-avancar {
+    background-color: #ffbb00;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+.etapa2 .botao-voltar:hover, .etapa2 .botao-avancar:hover {
+    background-color: #e6a900;
+}

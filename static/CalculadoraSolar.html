@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="Styles/StyleSolarisCSS.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="JavaScript/Grafico.js"></script>
+</head>
+<body>
+    <!-- Criação da DIV resposável pela top-box -->
+    <div class="top-box">
+        <nav class="menu-esquerda">
+            <ul>
+                <li class="dropdown">
+                    <a href="#">Energia Solar <span>&#9660;</span></a> <!-- A seta para baixo -->
+                    <div class="dropdown-content">
+                        <a href="UPXSolaris.html#info1">O que é Energia Solar?</a>
+                        <a href="UPXSolaris.html#info2">Como funciona a Energia Solar?</a>
+                        <a href="UPXSolaris.html#info3">Sustentabilidade e Meio Ambiente</a>
+                        <a href="UPXSolaris.html#info4">Economia com Energia Solar</a>
+                        <a href="FAQ.html">Dúvidas Frequentes</a>
+                    </div>
+                </li>
+                <li><a href="CalculadoraSolar.html">Calculadora</a></li>
+            </ul>
+        </nav>
+
+        <a href="UPXSolaris.html" id="logo-link">
+            <img src="Midias/LogoSolarisPNG.png" alt="logo" class="img-logo">
+        </a>
+
+        <nav class="menu-direita">
+            <ul>
+                <li><a href="SobreNos.html" id="sobreNos">Sobre Nós</a></li>
+                <li><a href="ConsultoriaPersonalizada.html" id="cadastro">Consultoria Personalizada</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="img-fundo2">
+        <img src="Midias/ImgFundoCalculadora.jpg" alt="imagemfundo">
+        <h1>Calculadora Solar</h1>
+        <h2>Preencha os dados e veja um investimento prévio e sua economia com energia solar!!</h2>
+
+        <div id="container-etapas"></div>
+    </div>
+
+    <script src="JavaScript/Calculadora.js" defer></script>
+    <script src="JavaScript/SolarisScript.js" defer></script>
+    <script>
+        window.onload = () => {
+            carregarEtapa1();
+        };
+    </script>
+
+
+
+    <!-- Parte do footer puxado com JavaScript -->
+    <div id="footer">
+        <script src="JavaScript/SolarisScript.js" defer></script>
+    </div>
+    
+</body>
+</html>

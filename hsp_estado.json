@@ -1,0 +1,140 @@
+[
+    {
+        "ID": 1,
+        "Estado": 1,
+        "hsp_estado": 4.25
+    },
+    {
+        "ID": 2,
+        "Estado": 2,
+        "hsp_estado": 5.40
+    },
+    {
+        "ID": 3,
+        "Estado": 3,
+        "hsp_estado": 4.15
+    },
+    {
+        "ID": 4,
+        "Estado": 4,
+        "hsp_estado": 4.70
+    },
+    {
+        "ID": 5,
+        "Estado": 5,
+        "hsp_estado": 5.75
+    },
+    {
+        "ID": 6,
+        "Estado": 6,
+        "hsp_estado": 6.0
+    },
+
+    {
+        "ID": 7,
+        "Estado": 7,
+        "hsp_estado": 5.45
+    },
+    {
+        "ID": 8,
+        "Estado": 8,
+        "hsp_estado": 5.0
+    },
+    {
+        "ID": 9,
+        "Estado": 9,
+        "hsp_estado": 5.40
+    },
+    {
+        "ID": 10,
+        "Estado": 10,
+        "hsp_estado": 5.15
+    },
+    {
+        "ID": 11,
+        "Estado": 11,
+        "hsp_estado": 5.10
+    },
+    {
+        "ID": 12,
+        "Estado": 12,
+        "hsp_estado": 5.45
+    },
+    {
+        "ID": 13,
+        "Estado": 13,
+        "hsp_estado": 5.75
+    },
+
+    {
+        "ID": 14,
+        "Estado": 14,
+        "hsp_estado": 4.75
+    },
+    {
+        "ID": 15,
+        "Estado": 15,
+        "hsp_estado": 5.80
+    },
+    {
+        "ID": 16,
+        "Estado": 16,
+        "hsp_estado": 5.60
+    },
+    {
+        "ID": 17,
+        "Estado": 17,
+        "hsp_estado": 6.0
+    },
+    {
+        "ID": 18,
+        "Estado": 18,
+        "hsp_estado": 4.75
+    },
+    {
+        "ID": 19,
+        "Estado": 19,
+        "hsp_estado": 4.80
+    },
+    {
+        "ID": 20,
+        "Estado": 20,
+        "hsp_estado": 5.95
+    },
+
+    {
+        "ID": 21,
+        "Estado": 21,
+        "hsp_estado": 4.75
+    },
+        {
+        "ID": 22,
+        "Estado": 22,
+        "hsp_estado": 4.85
+    },
+    {
+        "ID": 23,
+        "Estado": 23,
+        "hsp_estado": 4.55
+    },
+    {
+        "ID": 24,
+        "Estado": 24,
+        "hsp_estado": 4.55
+    },
+    {
+        "ID": 25,
+        "Estado": 25,
+        "hsp_estado": 5.55
+    },
+    {
+        "ID": 26,
+        "Estado": 26,
+        "hsp_estado": 4.75
+    },
+    {
+        "ID": 27,
+        "Estado": 27,
+        "hsp_estado": 5.60
+    }
+]

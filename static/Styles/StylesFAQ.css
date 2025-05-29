@@ -1,0 +1,57 @@
+/* CSS responsável pela estilização da página FAQ. */
+
+/* Estilização do fundo da página. */
+.fundo-cadastroFAQ {
+    background-color: #f0f0f0;
+    padding: 60px;
+    margin-top: 80px;
+    text-align: left; 
+}
+
+/* Estilização do título. */
+.fundo-cadastroFAQ h1 {
+    text-align: center;
+    font-family: Russo One, sans-serif;
+    color: rgba(0, 0, 0, 0.884);
+}
+
+/* Estilização da caixa onde se encontra cada pergunta. */
+.bloco-textoFAQ {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: linear-gradient(to bottom right, #ffffff, #f9f9f9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+/* Estilização do título (cada pergunta). */
+.bloco-textoFAQ h2 {
+    font-family: 'Abel', sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #333;
+    margin: 0;
+}
+
+.faq-answer {
+    display: none;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Aplicação do efeito sobre as caixas. */
+.bloco-textoFAQ:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}

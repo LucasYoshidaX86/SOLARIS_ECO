@@ -1,0 +1,29 @@
+/* CSS responsável pela estilização da página Sobre Nós. */
+
+/* Configurações da imagem de fundo */
+.img-fundo {
+    margin-top: 80px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Configurações da imagem de fundo. */
+.img-fundo img {
+    width: 100%;
+    height: auto;
+    display: block; 
+    filter: brightness(70%);
+}
+
+/* Animação de entrada */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

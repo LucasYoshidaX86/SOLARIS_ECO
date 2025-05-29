@@ -1,0 +1,818 @@
+[
+    {
+        "ID": 1,
+        "Nome": "EAC",
+        "Estado": 1,
+        "tarifa_residencial": 0.87,
+        "tarifa_empresarial": 0.87,
+        "tarifa_outro": 0.87
+    },
+    {
+        "ID": 2,
+        "Nome": "EQUATORIAL-AL",
+        "Estado": 2,
+        "tarifa_residencial": 0.87,
+        "tarifa_empresarial": 0.87,
+        "tarifa_outro": 0.87
+    },
+    {
+        "ID": 3,
+        "Nome": "AME",
+        "Estado": 3,
+        "tarifa_residencial": 1.01,
+        "tarifa_empresarial": 1.01,
+        "tarifa_outro": 1.01
+    },
+    {
+        "ID": 4,
+        "Nome": "CEA",
+        "Estado": 4,
+        "tarifa_residencial": 0.61,
+        "tarifa_empresarial": 0.65,
+        "tarifa_outro": 0.61
+    },
+    {
+        "ID": 5,
+        "Nome": "COELBA",
+        "Estado": 5,
+        "tarifa_residencial": 0.9,
+        "tarifa_empresarial": 0.9,
+        "tarifa_outro": 0.9
+    },
+    {
+        "ID": 6,
+        "Nome": "ENEL-CE",
+        "Estado": 6,
+        "tarifa_residencial": 0.9,
+        "tarifa_empresarial": 0.9,
+        "tarifa_outro": 0.9
+    },
+    {
+        "ID": 7,
+        "Nome": "NEOENERGIA-BRASILIA",
+        "Estado": 7,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.68,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 8,
+        "Nome": "EDP-ES",
+        "Estado": 8,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 9,
+        "Nome": "ELFSM",
+        "Estado": 8,
+        "tarifa_residencial": 0.87,
+        "tarifa_empresarial": 0.87,
+        "tarifa_outro": 0.87
+    },
+    {
+        "ID": 10,
+        "Nome": "CHESP",
+        "Estado": 9,
+        "tarifa_residencial": 0.92,
+        "tarifa_empresarial": 0.92,
+        "tarifa_outro": 0.92
+    },
+    {
+        "ID": 11,
+        "Nome": "EQUATORIAL-GO",
+        "Estado": 9,
+        "tarifa_residencial": 0.77,
+        "tarifa_empresarial": 0.77,
+        "tarifa_outro": 0.77
+    },
+    {
+        "ID": 12,
+        "Nome": "EQUATORIAL-MA",
+        "Estado": 10,
+        "tarifa_residencial": 0.9,
+        "tarifa_empresarial": 0.8,
+        "tarifa_outro": 0.9
+    },
+    {
+        "ID": 13,
+        "Nome": "CEMIG-D",
+        "Estado": 11,
+        "tarifa_residencial": 0.94,
+        "tarifa_empresarial": 0.79,
+        "tarifa_outro": 0.94
+    },
+    {
+        "ID": 14,
+        "Nome": "DMED",
+        "Estado": 11,
+        "tarifa_residencial": 0.78,
+        "tarifa_empresarial": 0.66,
+        "tarifa_outro": 0.78
+    },
+    {
+        "ID": 15,
+        "Nome": "EMR",
+        "Estado": 11,
+        "tarifa_residencial": 1.09,
+        "tarifa_empresarial": 0.92,
+        "tarifa_outro": 1.09
+    },
+    {
+        "ID": 16,
+        "Nome": "EMS",
+        "Estado": 12,
+        "tarifa_residencial": 1.01,
+        "tarifa_empresarial": 0.91,
+        "tarifa_outro": 1.01
+    },
+    {
+        "ID": 17,
+        "Nome": "EMT",
+        "Estado": 13,
+        "tarifa_residencial": 1.04,
+        "tarifa_empresarial": 1.04,
+        "tarifa_outro": 1.04
+    },
+    {
+        "ID": 18,
+        "Nome": "EQUATORIAL-PA",
+        "Estado": 14,
+        "tarifa_residencial": 1.01,
+        "tarifa_empresarial": 1.01,
+        "tarifa_outro": 1.01
+    },
+    {
+        "ID": 19,
+        "Nome": "EBO",
+        "Estado": 15,
+        "tarifa_residencial": 0.9,
+        "tarifa_empresarial": 0.87,
+        "tarifa_outro": 0.9
+    },
+    {
+        "ID": 20,
+        "Nome": "EPB",
+        "Estado": 15,
+        "tarifa_residencial": 0.9,
+        "tarifa_empresarial": 0.87,
+        "tarifa_outro": 0.9
+    },
+    {
+        "ID": 21,
+        "Nome": "NEOENERGIA-PE",
+        "Estado": 16,
+        "tarifa_residencial": 0.87,
+        "tarifa_empresarial": 0.87,
+        "tarifa_outro": 0.87
+    },
+    {
+        "ID": 22,
+        "Nome": "EQUATORIAL-PI",
+        "Estado": 17,
+        "tarifa_residencial": 0.87,
+        "tarifa_empresarial": 0.87,
+        "tarifa_outro": 0.87
+    },
+    {
+        "ID": 23,
+        "Nome": "CASTRO-DIS",
+        "Estado": 18,
+        "tarifa_residencial": 0.92,
+        "tarifa_empresarial": 0.92,
+        "tarifa_outro": 0.92
+    },
+    {
+        "ID": 24,
+        "Nome": "CERAL-DIS",
+        "Estado": 18,
+        "tarifa_residencial": 0.92,
+        "tarifa_empresarial": 0.92,
+        "tarifa_outro": 0.92
+    },
+    {
+        "ID": 25,
+        "Nome": "COCEL",
+        "Estado": 18,
+        "tarifa_residencial": 0.92,
+        "tarifa_empresarial": 0.92,
+        "tarifa_outro": 0.92
+    },
+    {
+        "ID": 26,
+        "Nome": "COPEL-DIS",
+        "Estado": 18,
+        "tarifa_residencial": 0.92,
+        "tarifa_empresarial": 0.92,
+        "tarifa_outro": 0.92
+    },
+    {
+        "ID": 27,
+        "Nome": "PACTO-DE-ENERGIA-PR",
+        "Estado": 18,
+        "tarifa_residencial": 0.92,
+        "tarifa_empresarial": 0.92,
+        "tarifa_outro": 0.92
+    },
+    {
+        "ID": 28,
+        "Nome": "CERAL-ARARUAMA",
+        "Estado": 19,
+        "tarifa_residencial": 0.94,
+        "tarifa_empresarial": 0.92,
+        "tarifa_outro": 0.94
+    },
+    {
+        "ID": 29,
+        "Nome": "CERCI",
+        "Estado": 19,
+        "tarifa_residencial": 0.94,
+        "tarifa_empresarial": 0.92,
+        "tarifa_outro": 0.94
+    },
+    {
+        "ID": 30,
+        "Nome": "CERES",
+        "Estado": 19,
+        "tarifa_residencial": 0.94,
+        "tarifa_empresarial": 0.92,
+        "tarifa_outro": 0.94
+    },
+    {
+        "ID": 31,
+        "Nome": "ENEL-RJ",
+        "Estado": 19,
+        "tarifa_residencial": 0.94,
+        "tarifa_empresarial": 0.92,
+        "tarifa_outro": 0.94
+    },
+    {
+        "ID": 32,
+        "Nome": "ENF",
+        "Estado": 19,
+        "tarifa_residencial": 1.09,
+        "tarifa_empresarial": 1.08,
+        "tarifa_outro": 1.09
+    },
+    {
+        "ID": 33,
+        "Nome": "LIGHT-SESA",
+        "Estado": 19,
+        "tarifa_residencial": 1.09,
+        "tarifa_empresarial": 1.08,
+        "tarifa_outro": 1.09
+    },
+    {
+        "ID": 34,
+        "Nome": "COSERN",
+        "Estado": 20,
+        "tarifa_residencial": 0.9,
+        "tarifa_empresarial": 0.9,
+        "tarifa_outro": 0.9
+    },
+    {
+        "ID": 35,
+        "Nome": "ERO",
+        "Estado": 21,
+        "tarifa_residencial": 0.65,
+        "tarifa_empresarial": 0.65,
+        "tarifa_outro": 0.65
+    },
+    {
+        "ID": 36,
+        "Nome": "BOA-VISTA",
+        "Estado": 22,
+        "tarifa_residencial": 0.65,
+        "tarifa_empresarial": 0.65,
+        "tarifa_outro": 0.65
+    },
+    {
+        "ID": 37,
+        "Nome": "CEEE-D",
+        "Estado": 23,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 38,
+        "Nome": "CELETRO",
+        "Estado": 23,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 39,
+        "Nome": "CERFOX",
+        "Estado": 23,
+        "tarifa_residencial": 0.58,
+        "tarifa_empresarial": 0.58,
+        "tarifa_outro": 0.58
+    },
+    {
+        "ID": 40,
+        "Nome": "CERILUZ",
+        "Estado": 23,
+        "tarifa_residencial": 0.58,
+        "tarifa_empresarial": 0.58,
+        "tarifa_outro": 0.58
+    },
+    {
+        "ID": 41,
+        "Nome": "CERMISSOES",
+        "Estado": 23,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 42,
+        "Nome": "CERTAJA",
+        "Estado": 23,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 43,
+        "Nome": "CERTEL-ENERGIA",
+        "Estado": 23,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 44,
+        "Nome": "CERTHIL",
+        "Estado": 23,
+        "tarifa_residencial": 0.58,
+        "tarifa_empresarial": 0.58,
+        "tarifa_outro": 0.58
+    },
+    {
+        "ID": 45,
+        "Nome": "COOPERLUZ",
+        "Estado": 23,
+        "tarifa_residencial": 0.58,
+        "tarifa_empresarial": 0.58,
+        "tarifa_outro": 0.58
+    },
+    {
+        "ID": 46,
+        "Nome": "COOPERNORTE",
+        "Estado": 23,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 47,
+        "Nome": "COOPERSUL",
+        "Estado": 23,
+        "tarifa_residencial": 0.58,
+        "tarifa_empresarial": 0.58,
+        "tarifa_outro": 0.58
+    },
+    {
+        "ID": 48,
+        "Nome": "COPREL",
+        "Estado": 23,
+        "tarifa_residencial": 0.58,
+        "tarifa_empresarial": 0.58,
+        "tarifa_outro": 0.58
+    },
+    {
+        "ID": 49,
+        "Nome": "CRELUZ-D",
+        "Estado": 23,
+        "tarifa_residencial": 0.58,
+        "tarifa_empresarial": 0.58,
+        "tarifa_outro": 0.58
+    },
+    {
+        "ID": 50,
+        "Nome": "DEMEI",
+        "Estado": 23,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 51,
+        "Nome": "ELETROCAR",
+        "Estado": 23,
+        "tarifa_residencial": 0.58,
+        "tarifa_empresarial": 0.58,
+        "tarifa_outro": 0.58
+    },
+    {
+        "ID": 52,
+        "Nome": "HIDROPAN",
+        "Estado": 23,
+        "tarifa_residencial": 0.87,
+        "tarifa_empresarial": 0.87,
+        "tarifa_outro": 0.87
+    },
+    {
+        "ID": 53,
+        "Nome": "MUXENERGIA",
+        "Estado": 23,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 54,
+        "Nome": "RGE",
+        "Estado": 23,
+        "tarifa_residencial": 0.58,
+        "tarifa_empresarial": 0.58,
+        "tarifa_outro": 0.58
+    },
+    {
+        "ID": 55,
+        "Nome": "RGE-SUL",
+        "Estado": 23,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 56,
+        "Nome": "UHENPAL",
+        "Estado": 23,
+        "tarifa_residencial": 0.87,
+        "tarifa_empresarial": 0.87,
+        "tarifa_outro": 0.87
+    },
+    {
+        "ID": 57,
+        "Nome": "CEGERO",
+        "Estado": 24,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 58,
+        "Nome": "CEJAMA",
+        "Estado": 24,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 59,
+        "Nome": "CELESC-DIS",
+        "Estado": 24,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 60,
+        "Nome": "CEPRAG",
+        "Estado": 24,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 61,
+        "Nome": "CERACA",
+        "Estado": 24,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 62,
+        "Nome": "CERAL",
+        "Estado": 24,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 63,
+        "Nome": "CERBRANORTE",
+        "Estado": 24,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 64,
+        "Nome": "CEREJ",
+        "Estado": 24,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 65,
+        "Nome": "CERGAL",
+        "Estado": 24,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 66,
+        "Nome": "CERGAPA",
+        "Estado": 24,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 67,
+        "Nome": "CERGRAL",
+        "Estado": 24,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 68,
+        "Nome": "CERMOFUL",
+        "Estado": 24,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 69,
+        "Nome": "CERPALO",
+        "Estado": 24,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 70,
+        "Nome": "CERSAD",
+        "Estado": 24,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 71,
+        "Nome": "CERSUL",
+        "Estado": 24,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 72,
+        "Nome": "CERTREL",
+        "Estado": 24,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 73,
+        "Nome": "CODESAM",
+        "Estado": 24,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 74,
+        "Nome": "COOPERA",
+        "Estado": 24,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 75,
+        "Nome": "COOPERALIANCA",
+        "Estado": 24,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 76,
+        "Nome": "COOPERCOCAL",
+        "Estado": 24,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 77,
+        "Nome": "COOPERMILA",
+        "Estado": 24,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 78,
+        "Nome": "COOPERZEM",
+        "Estado": 24,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 79,
+        "Nome": "COORSEL",
+        "Estado": 24,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 80,
+        "Nome": "DCELT",
+        "Estado": 24,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.72,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 81,
+        "Nome": "EFLJC",
+        "Estado": 24,
+        "tarifa_residencial": 0.87,
+        "tarifa_empresarial": 0.87,
+        "tarifa_outro": 0.87
+    },
+    {
+        "ID": 82,
+        "Nome": "EFLUL",
+        "Estado": 24,
+        "tarifa_residencial": 0.87,
+        "tarifa_empresarial": 0.87,
+        "tarifa_outro": 0.87
+    },
+    {
+        "ID": 83,
+        "Nome": "CERCOS",
+        "Estado": 25,
+        "tarifa_residencial": 0.9,
+        "tarifa_empresarial": 0.9,
+        "tarifa_outro": 0.9
+    },
+    {
+        "ID": 84,
+        "Nome": "ESE",
+        "Estado": 25,
+        "tarifa_residencial": 0.9,
+        "tarifa_empresarial": 0.9,
+        "tarifa_outro": 0.9
+    },
+    {
+        "ID": 85,
+        "Nome": "SULGIPE",
+        "Estado": 25,
+        "tarifa_residencial": 0.9,
+        "tarifa_empresarial": 0.9,
+        "tarifa_outro": 0.9
+    },
+    {
+        "ID": 86,
+        "Nome": "BANDEIRANTES-ENERGIA",
+        "Estado": 26,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.66,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 87,
+        "Nome": "CEDRAP",
+        "Estado": 26,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.66,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 88,
+        "Nome": "CEDRI",
+        "Estado": 26,
+        "tarifa_residencial": 0.87,
+        "tarifa_empresarial": 0.79,
+        "tarifa_outro": 0.87
+    },
+    {
+        "ID": 89,
+        "Nome": "CEMIRIM",
+        "Estado": 26,
+        "tarifa_residencial": 0.87,
+        "tarifa_empresarial": 0.79,
+        "tarifa_outro": 0.87
+    },
+    {
+        "ID": 90,
+        "Nome": "CERIM",
+        "Estado": 26,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.66,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 91,
+        "Nome": "CERIPA",
+        "Estado": 26,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.66,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 92,
+        "Nome": "CERIS",
+        "Estado": 26,
+        "tarifa_residencial": 0.58,
+        "tarifa_empresarial": 0.53,
+        "tarifa_outro": 0.58
+    },
+    {
+        "ID": 93,
+        "Nome": "CERMC",
+        "Estado": 26,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.66,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 94,
+        "Nome": "CERNHE",
+        "Estado": 26,
+        "tarifa_residencial": 0.58,
+        "tarifa_empresarial": 0.53,
+        "tarifa_outro": 0.58
+    },
+    {
+        "ID": 95,
+        "Nome": "CERPRO",
+        "Estado": 26,
+        "tarifa_residencial": 0.87,
+        "tarifa_empresarial": 0.79,
+        "tarifa_outro": 0.87
+    },
+    {
+        "ID": 96,
+        "Nome": "CERRP",
+        "Estado": 26,
+        "tarifa_residencial": 0.58,
+        "tarifa_empresarial": 0.53,
+        "tarifa_outro": 0.58
+    },
+    {
+        "ID": 97,
+        "Nome": "CERVAM",
+        "Estado": 26,
+        "tarifa_residencial": 0.87,
+        "tarifa_empresarial": 0.79,
+        "tarifa_outro": 0.87
+    },
+    {
+        "ID": 98,
+        "Nome": "CPFL-PAULISTA",
+        "Estado": 26,
+        "tarifa_residencial": 0.87,
+        "tarifa_empresarial": 0.79,
+        "tarifa_outro": 0.87
+    },
+    {
+        "ID": 99,
+        "Nome": "CPFL-PIRATININGA",
+        "Estado": 26,
+        "tarifa_residencial": 0.72,
+        "tarifa_empresarial": 0.66,
+        "tarifa_outro": 0.72
+    },
+    {
+        "ID": 100,
+        "Nome": "ELEKTRO",
+        "Estado": 26,
+        "tarifa_residencial": 0.87,
+        "tarifa_empresarial": 0.79,
+        "tarifa_outro": 0.87
+    },
+    {
+        "ID": 101,
+        "Nome": "ENEL-SP",
+        "Estado": 26,
+        "tarifa_residencial": 0.58,
+        "tarifa_empresarial": 0.53,
+        "tarifa_outro": 0.58
+    },
+    {
+        "ID": 102,
+        "Nome": "ETO",
+        "Estado": 27,
+        "tarifa_residencial": 1.01,
+        "tarifa_empresarial": 1.01,
+        "tarifa_outro": 1.01
+    }
+]
